@@ -15,7 +15,7 @@
             font-family: system-ui;
         }
 
-        .text{
+        .title{
             text-transform: uppercase;
             font-family: Raley, Helvetica, sans-serif;
             font-weight: 900;
@@ -26,12 +26,13 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
+            text-shadow: 3px -3px #f6f6f6;
         }
 
         footer {
             position: absolute;
-            bottom: 10px;
-            left: 10px;
+            bottom: 25px;
+            left: 25px;
         }
 
         .white-text {
@@ -42,15 +43,20 @@
             display: grid;
             place-items: center;
         }
+
+        .footer-link {
+            color: #686868;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="center-title">
-        <h1 class="text">Coming Soon</h1>
+        <h1 class="title">Coming Soon</h1>
         <span class="white-text">by  <strong>Loki 🔱</strong></span>
     </div>
 </body>
 <footer>
-    <a class="white-text" href="#" onclick="javascript:window.open('https://youtu.be/dQw4w9WgXcQ', '_blank')">Privacy Policy</a>
+    <a class="footer-link" href="#" onclick="javascript:window.open('https://youtu.be/dQw4w9WgXcQ', '_blank')">Privacy Policy</a>
 </footer>
 </html>
